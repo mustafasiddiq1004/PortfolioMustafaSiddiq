@@ -286,11 +286,11 @@
 
 .contact-info-container ul i{
     color: #09184a;
-    font-size: 25px;
+    font-size: 19px;
 }
 
 .contact-info-container ul li a{
-    font-size: 25px;
+    font-size: 19px;
     text-decoration: none;
     color: black;
     font-weight: 500;
@@ -319,7 +319,7 @@ footer {
 
 
 /* RESPONSIVE */
-@media only screen and (min-width: 786px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .navbar{
         text-align: center;
     }
@@ -353,7 +353,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .navbar{
         text-align: center;
     }
