@@ -52,20 +52,18 @@
     background: #fff;
 }
 
-.carousel {
-    background: url("mustafa.png");
+.carousel{
+    background-image: url(assets/mustafa.png) ;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
 }
 
 .carousel-item{
-    height: 75%;
-    min-height: 320px;
+    height: 100vh;
 }
 
 .carousel-caption {
+    position: relative;
     bottom: 220px;
     z-index: 2;
     left: 8;
@@ -325,22 +323,8 @@ footer {
         text-align: center;
     }
 
-    
-
-    .carousel-caption p{
-        text-align: center;
-    }
-
-    .carousel-caption h3, .carousel-caption h5{
-        text-align: center;
-    }
-
-    .carousel-caption .btn-container{
-        text-align: center;
-    }
-
-    .socials-container{
-        justify-content: center;
+    .carousel-caption{
+        top: 40%;
     }
     
     .about-text h2 {
