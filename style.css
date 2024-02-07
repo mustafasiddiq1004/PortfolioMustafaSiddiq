@@ -442,7 +442,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 720px) {
     .carousel-caption p{
         text-align: center;
         font-size: 23px;
