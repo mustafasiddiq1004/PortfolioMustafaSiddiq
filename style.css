@@ -59,10 +59,7 @@
     background-repeat: no-repeat;
 }
 
-.carousel-item {
-    height: 100vh;
-    min-height: 350px;
-}
+
 
 .carousel-caption {
     bottom: 220px;
@@ -441,7 +438,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 576px) {
     .carousel-caption p{
         text-align: center;
         font-size: 23px;
