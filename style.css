@@ -59,7 +59,10 @@
     background-repeat: no-repeat;
 }
 
-
+.carousel-item{
+    height: 75%;
+    min-height: 320px;
+}
 
 .carousel-caption {
     bottom: 220px;
