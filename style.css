@@ -442,6 +442,28 @@ footer {
 }
 
 @media only screen and (max-width: 720px) {
-    
+    .carousel-caption p{
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .carousel-caption h3{
+        text-align: center;
+        font-size: 59px;
+    }
+
+    .carousel-caption h5{
+        text-align: center;
+        font-size: 37px;
+        margin-bottom: 17px;
+    }
+
+    .carousel-caption .btn-container{
+        text-align: center;
+    }
+
+    .carousel-caption .btn-container button{
+        font-size: 23px;
+    }
 }
 
