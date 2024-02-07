@@ -56,6 +56,7 @@
     background-image: url(assets/mustafa.png) ;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .carousel-item{
@@ -63,7 +64,6 @@
 }
 
 .carousel-caption {
-    position: relative;
     bottom: 220px;
     z-index: 2;
     left: 8;
