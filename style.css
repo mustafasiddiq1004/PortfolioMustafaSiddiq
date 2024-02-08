@@ -457,3 +457,36 @@ footer {
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .carousel-caption p{
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .carousel-caption h3{
+        text-align: center;
+        font-size: 43px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    .carousel-caption h5{
+        text-align: center;
+        font-size: 31px;
+        margin-bottom: 17px;
+    }
+
+    .carousel-caption .btn-container{
+        text-align: center;
+    }
+
+    .carousel-caption .btn-container button{
+        font-size: 23px;
+    }
+
+    .about .right-text-section {
+    word-spacing: 2px;
+    }
+    
+}
+
